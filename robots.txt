@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://solitary-field-af31.imangolrizimangolriz.workers.dev/sitemap.xml

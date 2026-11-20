@@ -1,20 +1,18 @@
-IMAN GOLRIZ — WEBSITE STARTER
-================================
+بسته وب‌سایت ایمان گلریز
+========================
 
-Contents
-- index.html: bilingual Persian/English responsive website.
+محتویات:
+- index.html: صفحه اصلی دوزبانه، همراه با متاتگ تأیید گوگل
+- robots.txt: راهنمای دسترسی خزنده‌های موتور جست‌وجو
+- sitemap.xml: نقشه سایت
+- favicon.svg: نماد سایت
+- llms.txt: معرفی ساختاریافته برای سامانه‌های هوش مصنوعی
 
-Preview
-- Open index.html in a modern browser.
+نکته بسیار مهم:
+این فایل‌ها فقط آماده شده‌اند و هنوز روی سایت زنده منتشر نشده‌اند.
+برای فعال‌شدن تغییرات باید فایل‌ها در مخزن/محیط استقرار سایت بارگذاری و Deploy شوند.
+پس از انتشار، ابتدا صفحه اصلی را باز کنید و وجود عبارت google-site-verification را در کد صفحه بررسی کنید؛ سپس در Google Search Console دکمه Verify را بزنید.
+پس از تأیید مالکیت، آدرس sitemap.xml را در بخش Sitemaps ثبت کنید.
 
-Publishing
-This is a static website package. It is not yet publicly hosted and no domain/account has been created.
-It can be published using a static hosting provider such as Netlify Drop or GitHub Pages.
-To connect imangolriz.com later, purchase the domain and configure its DNS at the hosting provider.
-
-Important editorial notes
-- Public-facing membership and instructor registration numbers were omitted for privacy.
-- Music credential wording is marked for confirmation because the Persian CV says "کارشناس موسیقی" while the exact formal credential is not clear.
-- The two specifically described research publications are listed; no unsupported count of five articles is claimed.
-- English book and work titles are working translations and should be checked against the printed covers/catalogue records.
-- Before publication, verify institution names, dates, awards, journal issue details, and publication status against documents.
+نشانی فعلی سایت:
+https://solitary-field-af31.imangolrizimangolriz.workers.dev/
