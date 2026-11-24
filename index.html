@@ -53,6 +53,23 @@ section{background:transparent}
 .card{background:linear-gradient(145deg,rgba(48,45,40,.78),rgba(22,21,19,.88));border-color:rgba(190,177,151,.26);box-shadow:inset 0 1px 0 rgba(255,255,255,.035),0 12px 34px rgba(0,0,0,.16)}
 .statement{color:#e6dfd2}
 
+
+/* Stronger visible stone finish: avoid an almost-black flat appearance */
+body{
+ background-color:#34312c !important;
+ background-image:
+  radial-gradient(ellipse at 14% 18%,rgba(226,211,181,.24),transparent 28%),
+  radial-gradient(ellipse at 78% 30%,rgba(185,169,143,.19),transparent 32%),
+  radial-gradient(ellipse at 46% 82%,rgba(139,129,111,.20),transparent 34%),
+  repeating-linear-gradient(121deg,transparent 0 74px,rgba(226,215,193,.16) 75px,rgba(30,28,25,.26) 78px,transparent 82px,transparent 156px),
+  repeating-linear-gradient(58deg,transparent 0 122px,rgba(0,0,0,.34) 124px,rgba(210,198,174,.10) 127px,transparent 131px,transparent 244px),
+  linear-gradient(135deg,#514b41 0%,#292723 38%,#403b33 67%,#24221f 100%) !important;
+ background-attachment:fixed;
+}
+.hero{background:linear-gradient(135deg,rgba(70,64,54,.58),rgba(25,24,22,.26)) !important}
+.card{background:linear-gradient(145deg,rgba(67,62,53,.88),rgba(34,32,28,.91)) !important;border-color:rgba(218,204,177,.34) !important}
+.top{background:rgba(27,26,23,.88) !important}
+
 </style>
 <script type="application/ld+json">
 {
